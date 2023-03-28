@@ -7,7 +7,7 @@ body, html {
 
 /* Full height image header */
 .bgimg-1 {
-  background: url("/banner.png");
+  background: url("/ShoeVaccine-Website/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ body, html {
 }
 
 .bgimg-2 {
-  background: url("/banner.png");
+  background: url("/ShoeVaccine-Website/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
