@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="/shoevvaccine-logo.png">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/jswat-x.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Shoe Vaccine | Home</title>
+</head>
+
+<body class="w3-animate-opacity">
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+
+
+      <!--TOP-NAV-BAR-TITLE-BOX-START-->
+      <div>
+        <img src="shoevvaccine-logo.png" alt="shoevaccine-logo" class="w3-circle w3-bar-item"
+          style="height:55px; width:70px;" title="logo">
+        <a href="/index.html" class="w3-bar-item w3-button w3-wide w3-hover-blue">Shoe Vaccine</a>
+      </div>
+      <!--/TOP-NAV-BAR-TITLE-BOX-END-->
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small w3-hide-medium">
+        <a href="/order.html" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-basket-shopping"></i>
+          ORDER</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-info"></i> ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-user"></i> TEAM</a>
+        <a href="#work" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-images"></i> WORK</a>
+        <a href="#pricing" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-usd"></i> PRICING</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-phone"></i> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <button class="w3-bar-item w3-button w3-right w3-hide-large  w3-hover-blue" onclick="w3_open()"
+        title="Open Sidebar"><i class="fa fa-bars"></i></button>
+
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="/order.html" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-basket-shopping"></i> ORDER</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-info"></i> ABOUT</a>
+    <a href="#team" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-user"></i> TEAM</a>
+    <a href="#work" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-images"></i> WORK</a>
+    <a href="#pricing" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-usd"></i> PRICING</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-phone"></i> CONTACT</a>
+  </nav>
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-container">
+    <div class="w3-display-left banner">
+      <!-- <span class="w3-jumbo w3-hide-small">Get your KICKS back in shape</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-large">We care about what you wear.</span> -->
+      <p><a href="#about"
+          class="fx-button fx-scale fx-trans fx-blue-quartz w3-large w3-hover-blue-grey w3-hide-small">Learn more</a>
+      </p>
+      <span class="w3-hide-medium w3-hide-large">
+        <p><a href="#about" class="fx-button fx-scale fx-trans fx-blue-quartz w3-small w3-hover-blue-grey"
+            title="about">Learn
+            more</a></p>
+      </span>
+    </div>
+
+
+
+    <div class="w3-display-bottomright w3-large w3-hide-small social-icons">
+
+      <a href=""><i
+          class="w3-hide-small fab fa-instagram w3-hover-text-white w3-jumbo w3-padding w3-text-pink fx-trans fx-scale"
+          title="instagram"></i></a>
+      <span class="w3-hide-large w3-hide-medium"><a href=""><i
+            class="fab fa-instagram w3-hover-text-white w3-xlarge w3-padding w3-text-pink fx-trans fx-scale"></i></a></span>
+
+      <a href=""><i
+          class="w3-hide-small fab fa-whatsapp w3-hover-text-white w3-jumbo w3-padding w3-text-green fx-trans fx-scale"
+          title="whatsapp"></i></a>
+      <span class="w3-hide-large w3-hide-medium"><a href=""><i
+            class="fab fa-whatsapp w3-hover-text-white w3-xlarge w3-padding w3-text-green fx-trans fx-scale"></i></a></span>
+
+    </div>
+  </header>
+
+
+
+  <!-- About Section -->
+  <div class="w3-container about-section" id="about">
+    <h3 class="w3-center">Issy's Shoe Vaccine</h3>
+    <p class="w3-center w3-large">Key features</p>
+    <div class="w3-row-padding w3-center">
+      <div class="w3-quarter">
+        <i class="fas fa-star w3-margin-bottom w3-jumbo w3-center w3-text-gold"></i>
+        <p class="w3-large">Service Delivery</p>
+        <p>Excellent, On-Time and Efficient service delivery, right at your door step!</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-text-red"></i>
+        <p class="w3-large">Passion</p>
+        <p>We clean, maintain and re-furbish your kicks with pride.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo w3-text-aqua"></i>
+        <p class="w3-large">Technique</p>
+        <p>A Special method of cleaning up kicks that prevent damage and ruggedy looks, maintaining your brand of
+          choice.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-user w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Support</p>
+        <p>We offer advice and support for all your shoe issues. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="w3-container" id="team">
+    <h3 class="w3-center">THE TEAM</h3>
+    <p class="w3-center w3-large">The ones who run this company</p>
+
+    <div class="w3-row-padding" style="display: flex; justify-content: center;">
+
+      <div class="w3-center w3-padding w3-margin">
+        <div class="w3-card w3-hover-shadow w3-center w3-padding w3-round" style="width: 300px;">
+          <div class="">
+            <img src="/random.jpg" alt="John" class="team-img">
+            <h3>Isreal Karabo Moshe</h3>
+            <p class="w3-opacity">Entrepreneur & Founder of Issy's Shoe Vaccine South Africa</p>
+            <p>Some text here....</p>
+            <p><a href="#contact" class="w3-button w3-blue w3-block w3-hover-orange"><i class="fa fa-envelope"></i>
+                Contact</a></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="w3-center w3-padding w3-margin">
+        <div class="w3-card w3-hover-shadow w3-center w3-padding w3-round" style="width: 300px;">
+          <div class="">
+            <img src="/random.jpg" alt="Jane" title="" class="team-img">
+            <h3>M. Shaaqir Abrahams</h3>
+            <p class="w3-opacity">Aspiring Web Developer, Founder of Kryptiq Labs South Africa</p>
+            <p>Some text here....</p>
+            <p><a href="#contact" class="w3-button w3-blue w3-block w3-hover-orange"><i class="fa fa-envelope"></i>
+                Contact</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Promo Section "Statistics" -->
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">14+</span>
+      <br>Partners
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">55+</span>
+      <br>Projects Done
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">55+</span>
+      <br>Happy Clients
+    </div>
+    <div class="w3-quarter">
+      <!-- <span class="w3-xxlarge">150+</span>
+    <br>Meetings -->
+    </div>
+  </div>
+
+  <!-- Work Section -->
+  <div class="w3-container w3-black w3-text-yellow w3-center" id="work">
+    <h3 class="w3-center">OUR WORK</h3>
+    <p class="w3-center w3-large">What we've done for people</p>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/sJ3VFPJ/4.jpg" alt="4" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/cDKb32T/10.jpg" alt="10" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/Ss04LpP/9.jpg" alt="9" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/5WGgjm5/8.jpg" alt="8" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/6DhNWZb/7.jpg" alt="7" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/j41J9g5/6.jpg" alt="6" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/pv0XD6B/5.jpg" alt="5" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/7r8DJ39/2.jpg" alt="5" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <img src="https://i.ibb.co/BsGp9bY/3.jpg" alt="5" border="0" onclick="onClick(this)"
+          class="w3-hover-opacity work-img" title="">
+      </div>
+
+      <!-- <div class="w3-col l3 m6">
+      <img src="https://i.ibb.co/7r8DJ39/2.jpg" alt="5" border="0" style="width:300px; height: 400px;" onclick="onClick(this)" class="w3-hover-opacity">
+    </div> -->
+
+      <!-- <div class="w3-col l3 m6">
+      <img src="/7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div> -->
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image" title="img">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="w3-container w3-center w3-text-white" id="pricing" style="background: linear-gradient(blue, black, silver);">
+
+    <h3>PRICING</h3>
+    <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+
+    <div class="w3-row-padding w3-center w3-container" style="display: flex; justify-content: center;">
+
+      <div class="w3-padding w3-margin w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="fx-ufo-day w3-xlarge w3-padding-8">Basic</li>
+          <li class="w3-padding-16">Basic Wash & Clean</li>
+          <li class="w3-padding-16">Regular Shoe Types</li>
+          <li class="w3-padding-16">Collect & Deliver - R 0.00</li>
+          <li class="w3-padding-16">Optional HD Images (Before & After)</li>
+          <li class="w3-padding-8">
+            <h2 class="w3-wide">R 60.00</h2>
+            <span class="w3-opacity">Once-Off</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="/order.html" class="w3-button w3-black w3-padding-medium w3-hover-orange w3-round" title="order">Order
+              Now</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-padding w3-margin w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="fx-ufo-day w3-xlarge w3-padding-8">Pro</li>
+          <li class="w3-padding-16">Deep Wash & Clean</li>
+          <li class="w3-padding-16">Unique Shoe Types</li>
+          <li class="w3-padding-16">Collect & Deliver - R 0.00</li>
+          <li class="w3-padding-16">Optional HD Images (Before & After)</li>
+          <li class="w3-padding-8">
+            <h2 class="w3-wide">R 80.00</h2>
+            <span class="w3-opacity">Once-Off</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="/order.html" class="w3-button w3-black w3-padding-medium w3-hover-orange w3-round">Order Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-white" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+    <div class="w3-center contact-card">
+      <p><i class="fas fa-map-location-dot fa-fw w3-xxlarge w3-margin-right"></i> Johannesburg, RSA</p>
+      <p><i class="fas fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +27 74 739 6821</p>
+      <p><i class="fab fa-whatsapp fa-fw w3-xxlarge w3-margin-right"></i> Whatsapp: +27 74 739 6821</p>
+      <p><i class="fas fa-envelope-open fa-fw w3-xxlarge w3-margin-right"> </i> Email: issykarabo@gmail.com</p>
+      <br>
+      <form class="" id="contactForm">
+
+        <input type="hidden" name="ticket_ID" id="ticket_ID">
+
+        <p><input class="fx-text-input w3-hover-shadow contactInputs" type="text" placeholder="Name" required
+            name="Name"></p>
+        <p><input class=" fx-text-input w3-hover-shadow contactInputs" type="text" placeholder="Email" required
+            name="Email"></p>
+        <p><input class="fx-text-input w3-hover-shadow contactInputs" type="text" placeholder="Subject" required
+            name="Subject"></p>
+        <p><input class="fx-text-input w3-hover-shadow contactInputs message" type="text" placeholder="Message" required
+            name="Message"></p>
+        <p>
+          <button class=" w3-center fx-button fx-blue-quartz w3-margin fx-scale fx-trans" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- Image of location/map -->
+      <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px"> -->
+    </div>
+  </div>
+
+
+  <!--FOOTER-BAR-CONTENT-->
+  <footer class="w3-container w3-center w3-black w3-padding">
+    <!--GO-TO-TOP-BUTTON-->
+    <a href="#" class="fx-button fx-sunset-fire fx-scale fx-trans"><i class="fa fa-arrow-up w3-margin-right"></i>To
+      top</a>
+
+    <!--SOCIAL-ICONS-SECTION-->
+    <div class="w3-right w3-padding w3-section">
+      <h4>Connect with us!</h4>
+      <a href="https://" title="whatsapp"><i
+          class="fab fa-whatsapp w3-padding-small w3-text-green w3-xxlarge fx-scale fx-trans w3-hover-text-white"></i></a>
+      <a href="https://" title="instagram"><i
+          class="fab fa-instagram w3-padding-small w3-text-pink w3-xxlarge fx-scale fx-trans w3-hover-text-white"></i></a>
+    </div>
+
+    <div class="w3-left w3-left-align legal-links w3-padding" style="display: block;">
+      <a href="#" class="w3-text-red w3-hover-text-white">Order</a><br>
+      <a href="#" class="w3-text-red w3-hover-text-white">About Us</a><br>
+      <a href="#" class="w3-text-red w3-hover-text-white">The Team</a><br>
+      <a href="#" class="w3-text-red w3-hover-text-white">Our Work</a><br>
+    </div>
+<div class="w3-left w3-left-align legal-links w3-padding" style="display: block;">
+  <a href="#" class=" w3-text-red w3-hover-text-white">Pricing</a><br>
+  <a href="#" class="w3-text-red w3-hover-text-white">Terms of Service</a><br>
+  <a href="#" class="w3-text-red w3-hover-text-white">Privacy Policy</a><br>
+  <a href="#" class="w3-text-red w3-hover-text-white">Contact Us</a><br>
+</div>
+    <!--COMPANY-CONTENT-->
+    <p>&copy 2023 Issy's Shoe Vaccine | Built with <i class="fas fa-heart fa-fw w3-text-red w3-xlarge"></i>
+      by &copy Kryptiq Labs South
+      Africa | All Rights Reserved
+    </p>
+
+
+
+    <!--TECH-STACKS-CONTENT-->
+    <div class="w3-section w3-center">
+      <p><i class="fas fa-power-off fa-fw w3-text-red"></i> Powered by</p>
+
+      
+      <!--KRYPTIQ-LABS-S.A-->
+      <a href="#" class="w3-text-red w3-hover-text-white w3-padding" title="Website is under development">&copy Kryptiq Labs
+      </a>
+      <!--/KRYPTIQ-LABS-S.A-->
+      
+      <!--J.S.W.A.T-LOGO-->
+      <a href="#" class="w3-text-red w3-hover-text-white w3-padding"
+        title="J.S.W.A.T Project is under development">&copy J.S.W.A.T</a>
+      <!--/J.S.W.A.T-LOGO-->
+
+      <!--W3S-->
+      <a href="https://www.w3schools.com/" class="w3-text-red w3-hover-text-white w3-padding"
+        title="W3SCHOOLS">W3.css</a>
+      <!--/W3S-->
+      
+      <!--FreePik-->
+      <a href="https://www.freepik.com/" class="w3-text-red w3-hover-text-white w3-padding" title="Freepik">Freepik</a>
+      <!--/FreePik-->
+
+      <!--GITHUB-->
+      <a href="https://github.com/" class="w3-text-red w3-hover-text-white w3-padding" title="GITHUB">Github</a>
+      <!--/GITHUB-->
+
+  </div>
+
+  </footer>
+
+
+
+  
+
+  <!--EXTERNAL-LIBRARIES-->
+
+  <!--FX-scripts-->
+  <!-- <script src="/assets/effects/fx.themeFlipper.js"></script> -->
+  <script type="text/javascript" src="/fx.js"></script>
+  <script type="text/javascript" src="/contactService.js"></script>
+  <script type="text/javascript" src="/orderService.js"></script>
+
+
+
+
+</body>
+
+</html>

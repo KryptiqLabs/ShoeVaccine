@@ -1,0 +1,124 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background: url("/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.bgimg-2 {
+  background: url("/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.orderBG {
+  background: url("https://i.ibb.co/v16vN02/unsplash-BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+
+
+  .about-section {
+    padding: 0px;
+    background-size: contain;
+  }
+
+.banner {
+  padding:28px 60px;
+}
+
+.contactInputs.message {
+  height: 120px;
+  width: 420px;
+}
+
+input.contactInputs {
+  width: 620px;
+}
+
+
+.work-img {
+  width:300px; height: 400px; padding: 8px;
+}
+
+.team-img {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 22px;
+}
+
+.legal-links {
+  display: flex; justify-content: center;
+}
+
+.social-icons {
+  padding:16px 58px;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+} 
+
+.w3-sidebar {
+  display: none;
+}
+
+.w3-container {
+  padding:100px 16px;
+}
+
+input.submit-btn {
+  width: 300px;
+}
+
+div.orderCard {
+  width: 600px; height: 100%;
+  background: linear-gradient(hsla(204, 100%, 54%, 0.800), rgba(255, 208, 0, 0.800));
+}
+
+input.orderInputs {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+select.orderInputs {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  div.orderCard {
+    width: 360px; height: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  div.orderCard {
+    width: 500px; height: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="/shoevvaccine-logo.png">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/jswat-x.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Shoe Vaccine | Order</title>
+
+</head>
+
+<body class="w3-animate-opacity">
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+
+            <!--TOP-NAV-BAR-TITLE-BOX-START-->
+<div>
+  <img src="shoevvaccine-logo.png" alt="shoevaccine-logo" class="w3-circle w3-bar-item" style="height:55px; width:70px;" title="logo">
+  <a href="/index.html" class="w3-bar-item w3-button w3-wide w3-hover-blue">Shoe Vaccine</a>
+</div>
+<!--/TOP-NAV-BAR-TITLE-BOX-END-->
+
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="/index.html" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-arrow-left"></i> Back
+          Home</a>
+        <!-- <a href="/order.html" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-basket-shopping"></i> ORDER NOW</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-info"></i> ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-images"></i> WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-usd"></i> PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-phone"></i> CONTACT</a> -->
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-blue"
+        onclick="w3_open()" title="Open-Sidebar">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="/order.html" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-basket-shopping"></i> ORDER
+      NOW</a>
+    <a href="/index.html#about" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-info"></i> ABOUT</a>
+    <a href="/index.html#team" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-user"></i> TEAM</a>
+    <a href="/index.html#work" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-images"></i> WORK</a>
+    <a href="/index.html#pricing" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-usd"></i> PRICING</a>
+    <a href="/index.html#contact" class="w3-bar-item w3-button w3-hover-blue"><i class="fas fa-phone"></i> CONTACT</a>
+  </nav>
+
+  <!-- <div class="w3-container w3-grey w3-padding-64 w3-center" style="height: 100vh;">
+    <h1 class="w3-text-red w3-padding-64">This site is under development...</h1>
+    <a href="/index.html" class="fx-button fx-scale fx-trans fx-ufo-night w3-text-white w3-hover-text-blue">Back Home <i class="fas fa-arrow-left"></i></a>
+</div> -->
+
+  <div class="w3-container orderBG w3-dark-gray w3-center">
+
+    <form id="orderForm">
+
+      <div class="fx-card orderCard w3-center">
+        <h3>Order with Ease</h3>
+
+        <input type="hidden" name="email_ID" id="email_ID">
+
+        <div class="w3-row">
+
+
+          <div>
+            <label for="" class=" w3-text-red w3-left">* Required</label>
+            <br>
+            <input type="text" class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow orderInputs"
+              placeholder="Full Name" required name="from_name">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="" class="w3-text-red w3-left">* Required</label>
+            <br>
+            <input type="text" class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow orderInputs"
+              placeholder="Contact Number (RSA Only)" required name="from_contact">
+          </div>
+
+          <br>
+
+          <div> 
+            <label for="" class="w3-text-red w3-left">* Required</label>
+            <br>
+            <input type="email" class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow orderInputs"
+              placeholder="Email Address" required name="from_email">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="" class="w3-text-red w3-left">* Required</label>
+            <br>
+            <input type="text" class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow orderInputs"
+              placeholder="Address (RSA Only)" required name="from_address">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="" class="w3-text-red w3-left">* Required: </label>
+            <br>
+            <input type="number" class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow orderInputs"
+              placeholder="Number of Pairs" required id="numPairs" min="1" max="10">
+          </div>
+
+          <br>
+<!-- 
+          <div>
+            <label for="" class="w3-text-red w3-left">* Required: </label>
+            <br>
+            <select class="fx-text-input w3-left w3-gray w3-text-aqua w3-hover-shadow w3-center orderInputs"
+              required title="Payment Method">
+              <option value="" selected class="w3-text-gray">Payment Method: </option>
+              <option value="">Cash-On-Delivery</option>
+            </select>
+          </div> -->
+
+        </div>
+
+
+
+
+        <div class=" w3-margin w3-text-black w3-center">
+          <h5>Order Type</h5>
+          <button type="button" id="basicOption"
+            class="w3-button w3-blue w3-round w3-hover-orange fx-trans">BASIC</button>
+
+          <button type="button" id="proOption" class="w3-button w3-blue w3-round w3-hover-orange fx-trans">PRO</button>
+
+        </div>
+
+        <div class="w3-white w3-round w3-border w3-padding-small w3-margin w3-left-align">
+
+          <input type="hidden" name="order_type" id="hidden_order_type">
+          <label for="" class="">Order Type: <span id="order_type"></span></label><br>
+
+          <input type="hidden" name="order_price" id="hidden_order_price">
+          <label for="" class="">Order Price: <span id="order_price"></span></label><br>
+
+          <input type="hidden" name="order_total" id="hidden_order_total">
+          <label for="" class="">Order Total: <span id="total"></span></label>
+        </div>
+
+
+        <br>
+
+        <div class="w3-center">
+          <input type="submit"
+            class="fx-button fx-trans w3-large w3-wide w3-padding-small w3-blue w3-hover-orange w3-margin-bottom submit-btn"
+            value="Submit My Order">
+
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+
+
+
+
+
+  <!--FOOTER-BAR-CONTENT-->
+  <footer class="w3-center w3-black w3-padding">
+    <!--GO-TO-TOP-BUTTON-->
+    <a href="#" class="fx-button fx-sunset-fire fx-scale fx-trans"><i class="fa fa-arrow-up w3-margin-right"></i>To
+      top</a>
+
+    <!--SOCIAL-ICONS-SECTION-->
+    <div class="w3-xlarge w3-section">
+      <h4>Connect with us!</h4>
+      <a href="https://"><i
+          class="fab fa-whatsapp w3-padding-small w3-text-green w3-xxxlarge fx-scale fx-trans w3-hover-text-white"
+          title="whatsapp"></i></a>
+      <a href="https://"><i
+          class="fab fa-instagram w3-padding-small w3-text-pink w3-xxxlarge fx-scale fx-trans w3-hover-text-white"
+          title="instagram"></i></a>
+
+      </a>
+    </div>
+    <!--COMPANY-CONTENT-->
+    <p>&copy Copyright 2023 | Issy's Shoe Vaccine | Built with <i class="fas fa-heart fa-fw w3-text-red w3-xlarge"></i>
+      by &copy Kryptiq Labs South
+      Africa | All Rights Reserved
+    </p>
+
+    <div class="w3-center legal-links">
+      <a href="#" class="w3-padding w3-text-red w3-hover-text-white">Terms of Service</a>
+      <a href="#" class="w3-padding w3-text-red w3-hover-text-white">Privacy Policy</a>
+      <a href="/index.html#contact" class="w3-padding w3-text-red w3-hover-text-white">Contact Us</a>
+    </div>
+
+    <p><i class="fas fa-power-off fa-fw w3-text-red"></i> Powered by</p>
+    <!--TECH-STACKS-CONTENT-->
+    <div>
+
+      <!--W3S-->
+      <a href="https://www.w3schools.com/" class="w3-text-red w3-hover-text-white w3-padding"
+        title="W3SCHOOLS">W3.css</a>
+      <!--/W3S-->
+
+      <!--FreePik-->
+      <a href="https://www.freepik.com/" class="w3-text-red w3-hover-text-white w3-padding" title="Freepik">Freepik</a>
+      <!--/FreePik-->
+
+      <!--THE-CLOUD-->
+      <a href="https://www.cloudflare.com/en-gb/learning/cloud/what-is-the-cloud/"
+        class="w3-text-red  w3-hover-text-white w3-padding" title="CLOUD TECH">Cloud Technology</a>
+      <!--/THE-CLOUD-->
+
+      <!--GITHUB-->
+      <a href="https://github.com/" class="w3-text-red w3-hover-text-white w3-padding" title="GITHUB">Github</a>
+      <!--/GITHUB-->
+
+      <!--KRYPTIQ-LABS-S.A-->
+      <a href="#" class=" w3-text-red w3-hover-text-white w3-padding" title="Website is under development">Kryptiq Labs
+      </a>
+      <!--/KRYPTIQ-LABS-S.A-->
+
+      <!--J.S.W.A.T-LOGO-->
+      <a href="#" class="w3-text-red w3-hover-text-white w3-padding"
+        title="J.S.W.A.T Project is under development">J.S.W.A.T</a>
+      <!--/J.S.W.A.T-LOGO-->
+    </div>
+  </footer>
+
+
+
+  <!--EXTERNAL-LIBRARIES-->
+
+  <!--FX-scripts-->
+  <script type="text/javascript" src="/fx.js"></script>
+  <script type="text/javascript" src="/orderService.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!--jQUERY-AJAX-LIBRARY-(LATEST)-->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</body>
+
+</html>

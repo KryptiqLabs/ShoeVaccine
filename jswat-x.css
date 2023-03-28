@@ -1,0 +1,196 @@
+/*IN ORDER TO KEEP THE INTEGRITY OF THE COMPONENTS, THEIR EFFECTS & STYLES, 
+IT IS ***RECOMMENDED*** YOU DO NOT MODIFY J.S.W.A.T-X STYLES: 
+THEY ARE FOR USE WITH RENDERING THE J.S.W.A.T-X COMPONENTS-LIBRARY*/
+
+
+
+/*
+J.S.W.A.T-X COMPONENT-SCHEMES
+*/
+/*BUTTON-SCHEME*/
+.fx-button {
+    color: #000;
+    text-align: center;
+    justify-items: center;
+    width: 160px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.63);
+}
+.fx-button:hover {
+    background: #fff;
+    color: #000;
+}
+/*END-BUTTON-SCHEME*/
+
+/*TEXT-INPUT-SCHEME*/
+.fx-text-input {
+    background: var(--dark);
+    color: #000;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.637);
+}
+/*END-TEXT-INPUT-SCHEME*/
+
+/*CARD-BOX-SCHEME*/
+.fx-card {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.075);
+    color: #000;
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+    border: none;
+    padding: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.637);
+}
+/*END-CARD-BOX-SCHEME*/
+
+/*BANNER-BOX-SCHEME*/
+.fx-banner-box {
+    background: rgba(0, 0, 0, 0.075);
+    text-align: center;
+    align-items: center;
+    margin: 4px;
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+}
+/*END-BANNER-BOX-SCHEME*/
+
+/*CONTAINER-BOX-SCHEME*/
+.fx-container-box {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+/*END-CONTAINER-BOX-SCHEME*/
+
+/*TITLE-BAR-SCHEME*/
+.fx-title-bar {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+/*END-TITLE-BAR-SCHEME*/
+
+/*NOTIFY-QUE-SCHEME*/
+.fx-notify-box {
+    background: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    flex-wrap: wrap;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.63);
+}
+/*END-NOTIFY-QUE-SCHEME*/
+.fx-image-box {
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.411);
+}
+
+.fx-icon-bar {
+    width: 75px; 
+    height: 56px; 
+    margin-left: 60px; 
+    position: absolute;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*J.S.W.A.T-X COLOR-SCHEMES*/
+/*GRADIENTS*/
+
+/*UFO-NIGHT-SCHEME*/
+.fx-ufo {
+    background: radial-gradient(green, rgb(21, 58, 0));
+}
+
+.fx-ufo-night {
+    background: radial-gradient(rgb(0, 95, 0), black);
+}
+
+/*UFO-DAY-SCHEME*/
+.fx-ufo-day {
+    background: radial-gradient(rgb(246, 250, 0), rgb(119, 119, 119));
+}
+
+/*UFO-MIX-SCHEME*/
+.fx-ufo-mix {
+    background: radial-gradient(rgb(192, 0, 250), rgb(0, 211, 248), red);
+}
+
+/*SILVER-PLATE-SCHEME*/
+.fx-silver-plate {
+    background: linear-gradient(rgb(179, 179, 179), rgb(141, 141, 141), rgb(255, 255, 255));
+}
+
+/*TOXIC-PINK-SCHEME*/
+.fx-toxic-pink {
+    background: linear-gradient(rgb(255, 0, 242), rgb(0, 238, 99), rgb(199, 18, 169));
+}
+
+/*SUNSET-FIRE-SCHEME*/
+.fx-sunset-fire {
+    background: linear-gradient(purple, yellow);
+}
+
+/*BLUE-QUARTZ-SCHEME*/
+.fx-blue-quartz {
+    background: linear-gradient(hsl(204, 100%, 54%), rgb(255, 208, 0));
+}
+
+/*J.S.W.A.T-X COLOR-SCHEMES*/
+/*STANDARD COLORS*/
+/*GREEN-SCHEME*/
+.fx-green {
+    background: green;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+/*
+J.S.W.A.T-X TRANSITIONS&EFFECTS-SCHEMES
+*/
+/*HOVER-SOFT-TRANSITION*/
+.fx-trans:hover {
+    transition: all 250ms ease-in-out;
+}
+
+/*HOVER-SCALE-TRANSITION*/
+.fx-scale:hover {
+    transform: scale(1.2);
+    transition: all 250ms ease-in-out;
+}
+
+/*HOVER-SOFT-TRANSITION-GLOBAL*/
+a:hover {
+    transition: all 250ms ease-in-out;
+}
+/*HOVER standard*/
+.fx-hover-bg:hover {
+    background: radial-gradient(rgb(246, 250, 0), rgb(119, 119, 119));
+}
+
+.fx-bg-img {
+    min-height: 100%;
+    background-position: center;
+  }
