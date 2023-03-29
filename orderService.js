@@ -1,7 +1,7 @@
 window.onload = function () {
     // https://dashboard.emailjs.com/admin/account
     emailjs.init('y2KskKdDcisGmFjzf');
-    console.log("Init Run successful")
+    //console.log("Init Run successful")
 };
 
 var basicOption = document.getElementById('basicOption');
@@ -52,13 +52,14 @@ function submitForm(event) {
         // these IDs from the previous steps
         emailjs.sendForm('order_service', 'orderForm', this)
             .then(function() {
-                console.log('SUCCESS!');
-                alert('Email has been successfully sent with ID: ' + email_ID.value);
+                console.log('System Log: Order has successfully been placed by end-user.' + email_ID.value);
+                alert('Thank You for your order!\n An email has been sent to you with your order details.\nYour Order ID is: ' + email_ID.value + ".\nPlease keep this reference safe.\n" + "Re-directing you back Home...");
                 window.location.reload(true);
             }, function(error) {
-                console.log('FAILED...', error);
-                window.alert('Service FAILED...', error);
-                window.location.reload(true);
+                console.log('System Log: Service failed due to a connection error or the server is not responding.');
+                window.alert('Service failed due to a connection error or the server is not responding.');
+                console.clear();
+                window.location.href("");
             });
 }
         

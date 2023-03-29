@@ -5,9 +5,9 @@ body, html {
   line-height: 1.8;
 }
 
-/* Full height image header*/
+/* Full height image header */
 .bgimg-1 {
-  background: url("/ShoeVaccine-Website/banner.png");
+  background: url("/ShoeVaccine/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ body, html {
 }
 
 .bgimg-2 {
-  background: url("/ShoeVaccine-Website/banner.png");
+  background: url("/ShoeVaccine/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,7 +25,7 @@ body, html {
 }
 
 .orderBG {
-  background: url("https://i.ibb.co/v16vN02/unsplash-BG.jpg");
+  background: url("/ShoeVaccine/IMG-3a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
